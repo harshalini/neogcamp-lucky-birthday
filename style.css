@@ -1,0 +1,10 @@
+body {
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    align-items: center;
+}
