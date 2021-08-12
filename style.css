@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+:root {
+    --primary-dark: #3E2C41;
+    --primary-light: #DEBA9D;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+}
+
 .container {
     align-items: center;
     display: flex;
@@ -6,4 +18,32 @@
 
 h1 {
     text-align: center;
+}
+
+#birth-date {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.5rem;
+}
+
+#lucky-number {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.5rem;
+}
+
+#check-button {
+    font-size: large;
+    display: block;
+    padding: 0.5rem;
+    border-color: var(--primary-light);
+    cursor: pointer;
+    margin: auto;
+    background: transparent;
+    color: var(--primary-light);
+    border-width: medium;
+}
+
+.bDay-image {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
 }
