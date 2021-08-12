@@ -33,6 +33,7 @@ h1 {
 
 #check-button {
     font-size: large;
+    margin-bottom: 3rem;
     display: block;
     padding: 0.5rem;
     border-color: var(--primary-light);
